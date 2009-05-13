@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib', 'shellcuts', 'google'))
+
+begin
+  if ARGV[0].to_i.is_a?(Fixnum) && ARGV[0].to_i > 0
+    max_results = ARGV.shift.to_i
+    Shellcuts::Google.define(ARGV.join(' '), max_results)
+  else
+    Shellcuts::Google.define(ARGV.join(' '))
+  end
+rescue StandardError => e
+  puts e
+  puts "EXAMPLE: define 'Hans Rosling'"
+end

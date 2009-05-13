@@ -1,0 +1,59 @@
+h1. SHELLCUTS
+
+Convenient shortcuts directly within the shell. More to come...
+
+h2. Installation
+
+<pre>sudo gem install grimen-shellcuts</pre>
+
+h2. Usage
+
+<pre>define [MAX_RESULTS] QUERY</pre>
+
+h2. Examples
+
+Input:
+
+<pre>define "Big L"</pre>
+
+or
+
+<pre>define Big L</pre>
+
+Output:
+
+<pre>Definitions of "Big L" on the Web:
+  
+  * Lamont Coleman (May 30, 1974 - February 15, 1999), also known by his stage name Big L, was an American rapper.en.wikipedia.org/wiki/Big_L</pre>
+
+Input:
+
+<pre>define 10 Color</pre>
+
+Output:
+
+<pre>Definitions of "Color" on the Web:
+  
+  * a visual attribute of things that results from the light they emit or transmit or reflect; "a white color is made up of many different wavelengths of light"
+  
+  * interest and variety and intensity; "the Puritan Period was lacking in color"; "the characters were delineated with exceptional vividness"
+  
+  * add color to; "The child colored the drawings"; "Fall colored the trees"; "colorize black and white film"
+  
+  * the timbre of a musical sound; "the recording fails to capture the true color of the original music"
+  
+  * tinge: affect as in thought or feeling; "My personal feelings color my judgment in this case"; "The sadness tinged his life"
+  
+  * a race with skin pigmentation different from the white race (especially Blacks)
+  
+  * modify or bias; "His political ideas color his lectures"
+  
+  * semblance: an outward or token appearance or form that is deliberately misleading; "he hoped his claims would have a semblance of authenticity"; "he tried to give his falsehood the gloss of moral sanction"; "the situation soon took on a different color"
+  
+  * decorate with colors; "color the walls with paint in warm tones"
+  
+  * coloring material: any material used for its color; "she used a different color for the trim"</pre>
+
+h2. License
+
+Copyright (c) Jonas Grimfelt, released under the MIT-license.
